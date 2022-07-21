@@ -1,0 +1,32 @@
+$primary-color: #282c34;
+$secondary-color: azure;
+$presort-color: #FFCB33;
+$postsort-color: #007ACD;
+
+.array-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-color: $primary-color;
+  
+    .array-item {
+        width: 100%;
+        border: 1.4px solid $primary-color;
+        border-radius: .5em;
+        background-color: $presort-color;
+    }
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: $primary-color;
+    color: $secondary-color;
+
+    a {
+        color: $secondary-color;
+    }
+}

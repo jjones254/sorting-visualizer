@@ -1,0 +1,30 @@
+$primary-color: #282c34;
+$secondary-color: azure;
+
+.Nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: $primary-color;
+    height: 10vh;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+    }
+
+    li {
+        padding: 1em;
+    }
+
+    button {
+        background-color: $secondary-color;
+        color: $primary-color;
+        border: none;
+        padding: .8em;
+        font-size: 1.2em;
+        border-radius: .5em;
+    }
+}
