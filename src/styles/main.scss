@@ -9,7 +9,8 @@ $postsort-color: #007ACD;
     width: 100%;
     height: 80vh;
     background-color: $primary-color;
-  
+    overflow: hidden;
+    
     .array-item {
         width: 100%;
         border: 1.4px solid $primary-color;
