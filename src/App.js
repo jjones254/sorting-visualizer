@@ -197,7 +197,7 @@ function App() {
         ))}
       </main>
       <footer className='footer'>
-        <p>Built by <a href='https://justinjones.io/' target='_blank' rel='noreferrer'>justinjones.io</a></p>
+        <p>&copy; 2022 <a href='https://builtwithjjones.io/' target='_blank' rel='noreferrer'>builtwithjjones.io</a></p>
       </footer>
     </>
   );
