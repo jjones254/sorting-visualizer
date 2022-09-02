@@ -29,11 +29,10 @@ $postsort-color: #007ACD;
 
     a {
         color: $secondary-color;
-        text-decoration: none;
+        text-decoration: underline;
     }
     
     a:hover {
         color: #007ACD;
-        text-decoration: underline;
     }
 }
