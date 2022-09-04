@@ -6,19 +6,15 @@ function Nav(props) {
     // styling for selected sort method
     const navItems = document.getElementsByClassName('sortSelector');
     const navItemsArray = Array.from(navItems);
-    const newArrayButton = document.getElementById('newArrayButton');
-    const startButton = document.getElementById('startButton');
     navItemsArray.forEach(item => {
         item.addEventListener('click', () => {
             navItemsArray.forEach(item => {
                 item.classList.remove('selected');
             })
             item.classList.add('selected');
-            newArrayButton.classList.remove('selected');
-            startButton.classList.remove('selected');
         })
     })
-    
+
     return (
         <nav className='Nav'>
             <ul>
