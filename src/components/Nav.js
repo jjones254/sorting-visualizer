@@ -19,9 +19,9 @@ function Nav(props) {
     })
 
     actionButtonsArray.forEach(button => {
-        if (button.classList.contains('&:hover')) {
-            button.classList.remove('&:hover')
-        }
+        button.addEventListener('click', () => {
+            button.classList.remove('button:hover')
+        })
     })
 
     return (
