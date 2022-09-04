@@ -30,15 +30,23 @@ $secondary-color: azure;
         font-size: 1em;
         border-radius: .5em;
 
-        &:hover {
-            background-color: #007ACD;
-            color: $secondary-color;
-            cursor: pointer;
-        }
+        // &:hover {
+        //     background-color: #007ACD;
+        //     color: $secondary-color;
+        //     cursor: pointer;
+        // }
     }
 
     .selected {
         background-color: #007ACD;
         color: $secondary-color;
+    }
+
+    @media (hover: hover) {
+        button:hover {
+            background-color: #007ACD;
+            color: $secondary-color;
+            cursor: pointer;
+        }
     }
 }
