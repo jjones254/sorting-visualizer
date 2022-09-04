@@ -6,12 +6,16 @@ function Nav(props) {
     // styling for selected sort method
     const navItems = document.getElementsByClassName('sortSelector');
     const navItemsArray = Array.from(navItems);
+    const newArrayButton = document.getElementById('newArrayButton');
+    const startButton = document.getElementById('startButton');
     navItemsArray.forEach(item => {
         item.addEventListener('click', () => {
             navItemsArray.forEach(item => {
                 item.classList.remove('selected');
             })
             item.classList.add('selected');
+            newArrayButton.classList.remove('selected');
+            startButton.classList.remove('selected');
         })
     })
     
@@ -32,10 +36,10 @@ function Nav(props) {
                 </li>
             </ul>
             <ul>
-                <li>
+                <li id={'newArrayButton'}>
                     <button onClick={props.createNewArray}>New Array</button>
                 </li>
-                <li>
+                <li id={'startButton'}>
                     <button onClick={props.runSort}>Start</button>
                 </li>
             </ul>
