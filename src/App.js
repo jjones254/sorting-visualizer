@@ -197,7 +197,7 @@ function App() {
         ))}
       </main>
       <footer className='footer'>
-        <p>&copy; 2022 <a href='https://builtwithjjones.io/' target='_blank' rel='noreferrer'>builtwithjjones.io</a></p>
+        <p>Powered by <a href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app' target='_blank' rel='noopener noreferrer'>Vercel</a></p>
       </footer>
     </>
   );
